@@ -25,7 +25,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
         type: "image/png",
       },
     ],
-    theme_color: "#ffffff",
+    theme_color: "#000000",
     orientation: "portrait",
   },
 };
