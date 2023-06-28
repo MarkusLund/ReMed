@@ -30,7 +30,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
     // adress bar color
     display: "standalone",
     scope: "/",
-    start_url: "/",
+    // start_url: "/",
     orientation: "portrait",
   },
 };
