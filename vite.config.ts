@@ -12,7 +12,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
     name: "ReMed",
     short_name: "ReMed",
     description:
-      "App to remind you to take your medicine or help others remember",
+      "Amazn app to remind you to take your medicine or help others remember",
     icons: [
       {
         src: "/icon-192x192.png",
@@ -26,11 +26,6 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
       },
     ],
     theme_color: "#ffffff",
-    background_color: "#ffffff",
-    // adress bar color
-    display: "standalone",
-    scope: "/",
-    // start_url: "/",
     orientation: "portrait",
   },
 };
