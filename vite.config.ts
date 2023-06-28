@@ -3,7 +3,10 @@ import react from "@vitejs/plugin-react-swc";
 import { VitePWA, VitePWAOptions } from "vite-plugin-pwa";
 
 const manifestForPlugin: Partial<VitePWAOptions> = {
-  registerType: "prompt",
+  registerType: "autoUpdate",
+  devOptions: {
+    enabled: true,
+  },
   // includeAssets: ["favicon.svg", "robots.txt", "safari-pinned-tab.svg"],
   manifest: {
     name: "ReMed",
@@ -24,6 +27,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
     ],
     theme_color: "#ffffff",
     background_color: "#ffffff",
+    // adress bar color
     display: "standalone",
     scope: "/",
     start_url: "/",
